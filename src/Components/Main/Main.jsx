@@ -39,7 +39,7 @@ const Main = () => {
           onKeyUp={serchValue}
         />{" "}
         <div>
-          <label htmlFor="numberToDisplay">Number to display: </label>
+          <label htmlFor="numberToDisplay">Quantity to display: </label>
           <select
             name="number"
             id="numberToDisplay"

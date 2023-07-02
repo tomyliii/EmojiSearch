@@ -1,0 +1,49 @@
+section {
+  width: 1115px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+section > div {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  background-color: rgb(247, 247, 247);
+  padding: 10px 15px;
+}
+
+section > div:hover {
+  background-color: #f8efef;
+  cursor: pointer;
+}
+section > div > p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+section > div > p > span {
+  opacity: 0;
+  color: rgb(113, 113, 113);
+  font-size: 0.7em;
+}
+
+section > div:hover span {
+  opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  section {
+    margin: 0 30px;
+    width: calc(100% - 60px);
+  }
+  section > div {
+    font-size: 1em;
+    height: 40px;
+  }
+}
